@@ -1,0 +1,29 @@
+.header-content {
+    min-height: 75vh;
+    background: linear-gradient(rgba(104, 79, 2, 0.777), rgba(114, 86, 3, 0.713)), url("../../images/library-img.png") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pastikan teks berada di tengah */
+    align-items: center; /* Teks dipusatkan secara horizontal */
+    text-align: center; /* Buat teks berada di tengah */
+  }
+  
+  .header-title {
+    font-size: 4.2rem;
+    color: #fec107; /* Warna utama */
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk meningkatkan visibilitas */
+    padding: 0.5rem 1.5rem; /* Tambahkan padding untuk ruang */
+    border-radius: 10px; /* Tepi bulat agar lebih halus */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Perkuat bayangan teks */
+  }
+  
+  .header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    color: #ffffff; /* Ganti teks menjadi putih untuk kontras lebih baik */
+    background-color: rgba(0, 0, 0, 0.4); /* Tambahkan latar belakang semi-transparan */
+    padding: 1rem 1.5rem;
+    border-radius: 8px; /* Tambahkan tepi bulat */
+    max-width: 770px;
+  }
+  

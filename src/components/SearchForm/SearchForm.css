@@ -1,0 +1,42 @@
+.search-form {
+    width: 100%;
+    max-width: 680px;
+  }
+  
+  .search-form-elem {
+    padding: 1.4rem 2.8rem;
+    border-radius: 3.8rem;
+  }
+  
+  .search-form-elem .form-control {
+    font-size: 2rem;
+    padding: 0.6rem;
+  }
+  
+  .search-form-elem .form-control::placeholder {
+    opacity: 0.9;
+  }
+  
+  /* Styling untuk rekomendasi buku */
+  .popular-books {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .book-recommendation {
+    background-color: #fec107; /* Sesuaikan dengan warna utama */
+    color: #333;
+    padding: 0.6rem 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .book-recommendation:hover {
+    background-color: #e5a705; /* Warna hover lebih gelap */
+  }
+  
